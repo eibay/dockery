@@ -1,4 +1,4 @@
-FROM golang:alpine AS build
+FROM golang:buster
 
 RUN apt-get update \
   apt-get upgrade \
